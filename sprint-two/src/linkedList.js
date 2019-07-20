@@ -30,7 +30,6 @@ var LinkedList = function() {
     // check if target = current node  
     // while current node does not equal the target && not at the end of the list, traverse the linked list.
     var currentNode = list.head;
-    console.log(currentNode === list.head)
     while (currentNode.value !== target && currentNode !== list.tail) {
       currentNode = currentNode.next;      
     } 
